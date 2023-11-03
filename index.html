@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PopCorn Cinema</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <link rel="shortcut icon" href="img/fav-icon2.jpg" type="image/x-icon">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="index.html" class="logo">
+                PopCorn <span>Cinema</span>
+            </a>
+            <div class="search-box">
+                <input type="search" name="" id="search-input" placeholder="Шукати фільм">
+                <i class='bx bx-search'></i>
+            </div>
+            <a href="#" class="user">
+                <img src="img/user.jpg" alt="" class="user-img">
+            </a>
+            <!-- NavBar-->
+            <div class="navbar">
+                <a href="#home" class="nav-link nav-active">
+                    <i class='bx bx-home-alt'></i>
+                    <span class="nav-link-title">Головна</span>
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class='bx bxs-hot'></i>
+                    <span class="nav-link-title">Тренди</span>
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class='bx bx-compass' ></i>
+                    <span class="nav-link-title">Навігація</span>
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class='bx bx-camera-movie'></i>
+                    <span class="nav-link-title">Фільми</span>
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class='bx bxs-heart-circle'></i>
+                    <span class="nav-link-title">Улюбленні</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- Home -->
+    <section class="home container" id="home">
+        <img src="img/home-background.png" alt="" class="home-img">
+        <div class="home-text">
+            <h1 class="home-title">Тілоохоронець <br> Кілера</h1>
+            <p>Виходить 10 квітня</p>
+            <a href="#" class="watch-bth">
+                <i class='bx bx-chevron-right'></i>
+                <span>Подивитись трейлер</span>
+            </a>
+            
+        </div>
+    </section>
+
+    <section class="popular container" id="popular">
+        <div class="heading">
+            <h2 class="heading-title">Популярні фільми зараз в прокаті</h2>
+
+            <div class="swiper-btn">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                
+            </div>
+        </div>
+        <div class="popular-content swiper">
+            <div class="swiper-wrapper">
+
+                <!-- Movies Box 1-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-1.jpg" alt="Movie one" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Людина-павук: Додому шляху нема</h2>
+                            <span class="movie-type">Бойовик</span>
+                            <a href="#" class="watch-bth play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movies Box 2-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-2.jpg" alt="Movie one" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Круіз по джунглям</h2>
+                            <span class="movie-type">Бойовик/Пригоди</span>
+                            <a href="#" class="watch-bth play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movies Box 3-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-3.jpg" alt="Movie one" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Локі</h2>
+                            <span class="movie-type">Бойовик</span>
+                            <a href="#" class="watch-bth play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movies Box 4-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-4.jpg" alt="Movie one" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Гра в кальмара</h2>
+                            <span class="movie-type">Бойовик/Драма</span>
+                            <a href="#" class="watch-bth play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movies Box 5-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-5.jpg" alt="Movie one" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Зимній солдат</h2>
+                            <span class="movie-type">Бойовик</span>
+                            <a href="#" class="watch-bth play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movies Box 6-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-6.jpg" alt="Movie one" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Соколине око</h2>
+                            <span class="movie-type">Бойовик</span>
+                            <a href="#" class="watch-bth play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movies Box 7-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-7.jpg" alt="Movie one" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Агенти "Щит"</h2>
+                            <span class="movie-type">Бойовик</span>
+                            <a href="#" class="watch-bth play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movies Box 8-->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-8.jpg" alt="Movie one" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Флеш: Армагедон</h2>
+                            <span class="movie-type">Бойовик/Фантастика</span>
+                            <a href="#" class="watch-bth play-btn">
+                                <i class='bx bx-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+        </div>
+    </section>
+
+    <section class="movies container" id="movies">
+
+        <div class="heading">
+            <h2 class="heading-title">Популярні фільми та шоу</h2>
+        </div>
+
+        <div class="movies-content">
+            <div class="movie-box">
+                <img src="img/movie-1.jpg" alt="Movie one" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Джуманджи</h2>
+                    <span class="movie-type">Бойовик</span>
+                    <a href="#" class="watch-bth play-btn">
+                        <i class='bx bx-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="movie-box">
+                <img src="img/movie-2.jpg" alt="Movie one" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Тілоохоронець <br> Кілера</h2>
+                    <span class="movie-type">Бойовик</span>
+                    <a href="#" class="watch-bth play-btn">
+                        <i class='bx bx-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="movie-box">
+                <img src="img/movie-3.jpg" alt="Movie one" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Шань-Чи</h2>
+                    <span class="movie-type">Бойовик</span>
+                    <a href="#" class="watch-bth play-btn">
+                        <i class='bx bx-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="movie-box">
+                <img src="img/movie-4.jpg" alt="Movie one" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">???</h2>
+                    <span class="movie-type">Бойовик</span>
+                    <a href="#" class="watch-bth play-btn">
+                        <i class='bx bx-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="movie-box">
+                <img src="img/movie-5.jpg" alt="Movie one" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Спектр</h2>
+                    <span class="movie-type">Бойовик</span>
+                    <a href="#" class="watch-bth play-btn">
+                        <i class='bx bx-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="movie-box">
+                <img src="img/movie-6.jpg" alt="Movie one" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Пограбування</h2>
+                    <span class="movie-type">Бойовик</span>
+                    <a href="#" class="watch-bth play-btn">
+                        <i class='bx bx-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="movie-box">
+                <img src="img/movie-7.jpg" alt="Movie one" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Росомаха</h2>
+                    <span class="movie-type">Бойовик</span>
+                    <a href="#" class="watch-bth play-btn">
+                        <i class='bx bx-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="movie-box">
+                <img src="img/movie-8.jpg" alt="Movie one" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Містер Бін</h2>
+                    <span class="movie-type">Бойовик</span>
+                    <a href="#" class="watch-bth play-btn">
+                        <i class='bx bx-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <div class="next-page">
+        <a href="#" class="next-btn">Наступна Сторінка</a>
+    </div>
+    <div class="contact-us">
+        <h3 class="text-us">Виникли питання? Позвоніть чи напишіть нам на почту : </h3>
+        <h4 class="text-mail-num">
+            <br> o.filipenkov@istu.edu.ua
+            <br> t.danilishin@istu.edu.ua
+            <br> k.grabovuk@istu.edu.ua
+            <br>
+            
+            
+        </h4>
+        
+    </div>
+
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
